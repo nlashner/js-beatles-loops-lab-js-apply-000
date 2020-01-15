@@ -1,4 +1,4 @@
-learn open js-beatles-loops-lab
+
 
 function theBeatlesPlay(arr1, arr2) {
   let newArr = []
@@ -19,4 +19,16 @@ function johnLennonFacts(array){
     i++
   }
   return newArr
+}
+
+
+function iLoveTheBeatles(num) {
+  let arr = []
+  let i = 0
+  do {
+    arr.push('I love the Beatles!')
+    i += num
+    }
+  while (i < 15)
+  return arr
 }
